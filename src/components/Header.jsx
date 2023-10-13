@@ -14,7 +14,7 @@ import "./Header.css";
 const logoStyle = {
   width: "50px",
   height: "50px",
-  marginRight:"10px",
+  marginRight: "10px",
 };
 
 export default function AppHeader() {
@@ -34,6 +34,7 @@ export default function AppHeader() {
               <Nav.Link className="" href="#home">
                 Home
               </Nav.Link>
+              <Nav.Link href="#aboutUs">About us</Nav.Link>
               <Nav.Link href="#joinAteam">Join a team</Nav.Link>
               <NavDropdown title="Sermons" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">ONLINE</NavDropdown.Item>
@@ -45,8 +46,8 @@ export default function AppHeader() {
                   WATCH-PAST SERMONS
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#aboutUs">About-us</Nav.Link>
               <Nav.Link href="#gives">Gives</Nav.Link>
+              <Nav.Link href="#contactUs">Contact Us</Nav.Link>
             </Nav>
             <Form inline>
               <Row>
