@@ -1,27 +1,15 @@
 import React from "react";
-import AppHeader from "./components/Header";
-import Appfooter from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="header">
-        <header id="header-section">
-          {" "}
-          <AppHeader />
-        </header>
-      </div>
-      <div className="content-section"></div>
-      <div className="footer-section">
-        {" "}
-        <footer className="footer--pin">
-          <Appfooter />
-        </footer>
-      </div>
-    </div>
-  );
+  return <div>
+    
+  </div>;
 }
 
 export default App;

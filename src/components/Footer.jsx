@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./Footer.scss";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import {
@@ -44,9 +44,9 @@ export default function Appfooter() {
                 Mission Peniel SOP
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                Jesus is a good news for everyone. come and meet our growing
+                community and see what Jesus is doing right here at Mission
+                Peniel.
               </p>
             </MDBCol>
 

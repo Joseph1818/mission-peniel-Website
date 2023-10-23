@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Header.css";
+import "./Header.scss";
 
 const logoStyle = {
   width: "50px",
