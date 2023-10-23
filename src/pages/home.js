@@ -2,7 +2,9 @@ import React from "react";
 import AppHeader from "../components/Header";
 import Appfooter from "../components/Footer";
 import AppHomeContent from "../components/homeContent";
+import AppNotification from "../components/notificationSection";
 import "../App.scss";
+
 
 export default function Home() {
   return (
@@ -15,6 +17,9 @@ export default function Home() {
       </div>
       <div className="content-section">
         <AppHomeContent />
+      </div>
+      <div className="notification-Section">
+        <AppNotification />
       </div>
       <div className="footer-section">
         {" "}
