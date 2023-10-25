@@ -71,7 +71,7 @@ export default function ContactUs() {
                     onChange={handleChange}
                     value={data.subject}
                   />
-                  <label for="message">Subject</label>
+                  <label for="message">message</label>
                   <textarea
                     name="message"
                     id=""

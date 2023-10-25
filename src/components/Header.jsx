@@ -49,18 +49,7 @@ export default function AppHeader() {
               <Nav.Link href="#gives">Gives</Nav.Link>
               <Nav.Link href="#contactUs">Contact Us</Nav.Link>
             </Nav>
-            <Form inline>
-              <Row>
-                <Col xs="auto">
-                  <Button href="#" type="submit" variant="light">
-                    Register
-                  </Button>{" "}
-                  <Button href="#" type="submit" variant="dark">
-                    Login
-                  </Button>
-                </Col>
-              </Row>
-            </Form>
+          
           </Navbar.Collapse>
         </Container>
       </Navbar>
