@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    height: 130px;
+    background-color: #fff;
+}
+.section1Paragraph {
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 100;
+}
+.section2 {
+height: 900px;
+   background-color: #F8F8F8;
+}
+
+
+.section1Hr {
+    width: 370px;
+    text-align: center;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    margin: auto;
+
+}
+.h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:10px ;
+    font-weight: 400;
+}
+.section2Hr {
+        width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            border-top: 1px solid #000;
+        
+           
+}
+
+input:focus,
+textarea:focus,
+a:focus {
+    outline: none;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.formDiv {
+    display: block;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 2px #ddd ;
+    margin: 50px auto;
+    max-width: 500px;
+    max-height: 800px;
+    padding: 20px 30px ; 
+}
+
+form input, textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px ;
+    background-color: #F8F8F8;
+    border: 1px solid #ddd;
+}
+form button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.formDiv label {
+        display: block;
+        text-align: center;
+        line-height: 150%;
+        font-size: .80em;
+        font-weight: bold;
+}
+.title{
+text-align: center;
+font-size: large;
+padding-top: 20px auto ;
+margin-top: 50px;
+}
+.info{
+   text-align: center; 
+   font-size: large;
+   font-weight: 200;
+}

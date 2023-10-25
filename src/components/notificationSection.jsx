@@ -25,7 +25,7 @@ export default function AppNotification() {
             </div>
           </div>
           <div className="buttonDiv" style={{ textAlign: "center" }}>
-            <button
+            <button className="button"
               style={{ borderColor: isMouseOver ? "white" : "black" }}
               onClick={handleClick}
               onMouseOver={handleMouseOver}
