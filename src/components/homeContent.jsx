@@ -12,7 +12,6 @@ export default function AppHomeContent() {
   return (
     <div className="AppHomeContent">
       <div
-        className=""
         style={{
           backgroundImage: `url(${background})`,
           backgroundRepeat: "no-repeat",
