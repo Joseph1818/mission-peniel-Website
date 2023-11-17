@@ -44,7 +44,7 @@ export default function ContactUs() {
             <Col>
               <h2 className="h2">Get in Contact</h2>
               <hr className="section2Hr"></hr>
-              <form method="post" onSubmit={handleSubmit} className="formDiv">
+              <form method="POST" onSubmit={handleSubmit} className="formDiv">
                 <div>
                   <label for="name">Your Name (required)</label>
                   <input

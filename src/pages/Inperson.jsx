@@ -46,7 +46,7 @@ export default function Inperson() {
             <p className="titleStyle">Kinshasa Campus</p>
             <p className="infoStyle"> 64 Faradje, Q/ Shaba C/ Kasava-Vubu</p>
             <p className="timeStyle"> Service Time: </p>
-            <p className="time2Style">Tuesday 8Pm</p>
+            <p className="time2Style">Tuesday 8:00Pm</p>
           </Col>
           <Col>
             <div className="Map">

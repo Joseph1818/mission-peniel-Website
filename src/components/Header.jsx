@@ -18,6 +18,8 @@ const logoStyle = {
 };
 
 export default function AppHeader() {
+ 
+
   return (
     <div>
       <Navbar expand="lg" className="bg-body-tertiary ">
@@ -31,25 +33,22 @@ export default function AppHeader() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto" variant="underline">
-              <Nav.Link className="" href="#home">
+              <Nav.Link className="" href="/">
                 Home
               </Nav.Link>
-              <Nav.Link href="#aboutUs">About us</Nav.Link>
-              <Nav.Link href="#joinAteam">Join a team</Nav.Link>
+              <Nav.Link href="about">About us</Nav.Link>
+              <Nav.Link href="Nextstep">Next steps</Nav.Link>
               <NavDropdown title="Sermons" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">ONLINE</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  IN-PERSON
-                </NavDropdown.Item>
+                <NavDropdown.Item href="Online">ONLINE</NavDropdown.Item>
+                <NavDropdown.Item href="Inperson">IN-PERSON</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
                   WATCH-PAST SERMONS
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#gives">Gives</Nav.Link>
-              <Nav.Link href="#contactUs">Contact Us</Nav.Link>
+              <Nav.Link href="giving">Give</Nav.Link>
+              <Nav.Link href="contactUs">Contact Us</Nav.Link>
             </Nav>
-          
           </Navbar.Collapse>
         </Container>
       </Navbar>
